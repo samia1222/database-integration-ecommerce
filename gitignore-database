@@ -1,0 +1,77 @@
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+*.frm
+*.ibd
+*.MYD
+*.MYI
+
+# Database backups
+*.bak
+*.backup
+*.sql.gz
+*.dump
+
+# Log files
+*.log
+*.logs
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Node modules (if using any database tools)
+node_modules/
+npm-debug.log*
+
+# Python (if using any migration scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# MySQL Workbench
+*.mwb.bak
+*.mwb.beforefix
+
+# Connection strings and credentials
+.env
+.env.local
+config.local.js
+secrets.json
+credentials.json
+
+# Data exports (optional - uncomment if you don't want to track data)
+# *.csv
+# *.xlsx
+# *.json
+# exports/
+# data/
